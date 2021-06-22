@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,30 @@
 		E96E29B8265686040084F12A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E29B7265686040084F12A /* ContentView.swift */; };
 		E96E29BA265686060084F12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96E29B9265686060084F12A /* Assets.xcassets */; };
 		E96E29BD265686060084F12A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96E29BC265686060084F12A /* Preview Assets.xcassets */; };
+		E96E29C5265686750084F12A /* Pangolin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E96E29C4265686750084F12A /* Pangolin-Regular.ttf */; };
+		E9772B5B2664E1EF002A30A3 /* SwiftStomp in Frameworks */ = {isa = PBXBuildFile; productRef = E9772B5A2664E1EF002A30A3 /* SwiftStomp */; };
+		E977588F2681D2DE00732271 /* RootPresentationModeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E977588E2681D2DE00732271 /* RootPresentationModeKey.swift */; };
+		E97C6816266761A8003397D9 /* EnterAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97C6815266761A8003397D9 /* EnterAnswerView.swift */; };
+		E97C681C2667A0C5003397D9 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = E97C681B2667A0C5003397D9 /* SwiftUIX */; };
+		E9E3A368266F3BED0066D148 /* AnswerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3A367266F3BED0066D148 /* AnswerRequest.swift */; };
+		E9E3A36A266F40C00066D148 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3A369266F40C00066D148 /* StoryView.swift */; };
+		E9E3A36D266F42990066D148 /* StoryLineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3A36C266F42990066D148 /* StoryLineCard.swift */; };
+		E9E3A36F266F42EE0066D148 /* StoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3A36E266F42EE0066D148 /* StoryRow.swift */; };
+		E9E3A371266F5E380066D148 /* StoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3A370266F5E380066D148 /* StoryRequest.swift */; };
+		E9EC6915265A9CD200D327FF /* WaitingRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC6914265A9CD200D327FF /* WaitingRoomView.swift */; };
+		E9EC6917265AADDD00D327FF /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC6916265AADDD00D327FF /* PlayerCard.swift */; };
+		E9EC691B265AB17900D327FF /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC691A265AB17900D327FF /* PlayerRow.swift */; };
+		E9F1512B2663E278002FB2BC /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1512A2663E278002FB2BC /* APIRequests.swift */; };
+		E9F1512E2663E2AC002FB2BC /* answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1512D2663E2AC002FB2BC /* answer.swift */; };
+		E9F151322663E3AC002FB2BC /* ConnecToGameRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F151312663E3AC002FB2BC /* ConnecToGameRequest.swift */; };
+		E9F151342663E3DD002FB2BC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F151332663E3DD002FB2BC /* Player.swift */; };
+		E9F151362663E4AB002FB2BC /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F151352663E4AB002FB2BC /* BaseResponse.swift */; };
+		E9F151382663E506002FB2BC /* QuestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F151372663E506002FB2BC /* QuestionResponse.swift */; };
+		E9F1513A2663E5FC002FB2BC /* StartGameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F151392663E5FC002FB2BC /* StartGameResponse.swift */; };
+		E9F1513C2663E62E002FB2BC /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1513B2663E62E002FB2BC /* Story.swift */; };
+		E9F1513E2663E689002FB2BC /* StartGameRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1513D2663E688002FB2BC /* StartGameRequest.swift */; };
+		E9F151402663E6CE002FB2BC /* StoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1513F2663E6CE002FB2BC /* StoryResponse.swift */; };
+		E9F151432663EECA002FB2BC /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = E9F151422663EECA002FB2BC /* AlertToast */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +44,28 @@
 		E96E29B9265686060084F12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E96E29BC265686060084F12A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E96E29BE265686060084F12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96E29C4265686750084F12A /* Pangolin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pangolin-Regular.ttf"; sourceTree = "<group>"; };
+		E977588E2681D2DE00732271 /* RootPresentationModeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresentationModeKey.swift; sourceTree = "<group>"; };
+		E97C6815266761A8003397D9 /* EnterAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAnswerView.swift; sourceTree = "<group>"; };
+		E97C681D266804DF003397D9 /* Chepuha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chepuha.entitlements; sourceTree = "<group>"; };
+		E9E3A367266F3BED0066D148 /* AnswerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRequest.swift; sourceTree = "<group>"; };
+		E9E3A369266F40C00066D148 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		E9E3A36C266F42990066D148 /* StoryLineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryLineCard.swift; sourceTree = "<group>"; };
+		E9E3A36E266F42EE0066D148 /* StoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRow.swift; sourceTree = "<group>"; };
+		E9E3A370266F5E380066D148 /* StoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRequest.swift; sourceTree = "<group>"; };
+		E9EC6914265A9CD200D327FF /* WaitingRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoomView.swift; sourceTree = "<group>"; };
+		E9EC6916265AADDD00D327FF /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
+		E9EC691A265AB17900D327FF /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		E9F1512A2663E278002FB2BC /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		E9F1512D2663E2AC002FB2BC /* answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answer.swift; sourceTree = "<group>"; };
+		E9F151312663E3AC002FB2BC /* ConnecToGameRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnecToGameRequest.swift; sourceTree = "<group>"; };
+		E9F151332663E3DD002FB2BC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E9F151352663E4AB002FB2BC /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		E9F151372663E506002FB2BC /* QuestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionResponse.swift; sourceTree = "<group>"; };
+		E9F151392663E5FC002FB2BC /* StartGameResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameResponse.swift; sourceTree = "<group>"; };
+		E9F1513B2663E62E002FB2BC /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		E9F1513D2663E688002FB2BC /* StartGameRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameRequest.swift; sourceTree = "<group>"; };
+		E9F1513F2663E6CE002FB2BC /* StoryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9772B5B2664E1EF002A30A3 /* SwiftStomp in Frameworks */,
+				E9F151432663EECA002FB2BC /* AlertToast in Frameworks */,
+				E97C681C2667A0C5003397D9 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +101,23 @@
 		E96E29B4265686040084F12A /* Chepuha */ = {
 			isa = PBXGroup;
 			children = (
+				E97C681D266804DF003397D9 /* Chepuha.entitlements */,
+				E9F151302663E384002FB2BC /* responses */,
+				E9F1512F2663E37A002FB2BC /* requests */,
+				E9F1512C2663E29A002FB2BC /* model */,
 				E96E29B5265686040084F12A /* ChepuhaApp.swift */,
 				E96E29B7265686040084F12A /* ContentView.swift */,
 				E96E29B9265686060084F12A /* Assets.xcassets */,
+				E96E29C4265686750084F12A /* Pangolin-Regular.ttf */,
 				E96E29BE265686060084F12A /* Info.plist */,
 				E96E29BB265686060084F12A /* Preview Content */,
+				E9EC6914265A9CD200D327FF /* WaitingRoomView.swift */,
+				E9EC691A265AB17900D327FF /* PlayerRow.swift */,
+				E9F1512A2663E278002FB2BC /* APIRequests.swift */,
+				E97C6815266761A8003397D9 /* EnterAnswerView.swift */,
+				E9E3A369266F40C00066D148 /* StoryView.swift */,
+				E9E3A36E266F42EE0066D148 /* StoryRow.swift */,
+				E977588E2681D2DE00732271 /* RootPresentationModeKey.swift */,
 			);
 			path = Chepuha;
 			sourceTree = "<group>";
@@ -67,6 +128,48 @@
 				E96E29BC265686060084F12A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9E3A36B266F42340066D148 /* card */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC6916265AADDD00D327FF /* PlayerCard.swift */,
+				E9E3A36C266F42990066D148 /* StoryLineCard.swift */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		E9F1512C2663E29A002FB2BC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E9E3A36B266F42340066D148 /* card */,
+				E9F1512D2663E2AC002FB2BC /* answer.swift */,
+				E9F151332663E3DD002FB2BC /* Player.swift */,
+				E9F1513B2663E62E002FB2BC /* Story.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E9F1512F2663E37A002FB2BC /* requests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F151312663E3AC002FB2BC /* ConnecToGameRequest.swift */,
+				E9F1513D2663E688002FB2BC /* StartGameRequest.swift */,
+				E9E3A367266F3BED0066D148 /* AnswerRequest.swift */,
+				E9E3A370266F5E380066D148 /* StoryRequest.swift */,
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		E9F151302663E384002FB2BC /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				E9F151352663E4AB002FB2BC /* BaseResponse.swift */,
+				E9F151372663E506002FB2BC /* QuestionResponse.swift */,
+				E9F151392663E5FC002FB2BC /* StartGameResponse.swift */,
+				E9F1513F2663E6CE002FB2BC /* StoryResponse.swift */,
+			);
+			path = responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +188,11 @@
 			dependencies = (
 			);
 			name = Chepuha;
+			packageProductDependencies = (
+				E9F151422663EECA002FB2BC /* AlertToast */,
+				E9772B5A2664E1EF002A30A3 /* SwiftStomp */,
+				E97C681B2667A0C5003397D9 /* SwiftUIX */,
+			);
 			productName = Chepuha;
 			productReference = E96E29B2265686040084F12A /* Chepuha.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +220,11 @@
 				Base,
 			);
 			mainGroup = E96E29A9265686040084F12A;
+			packageReferences = (
+				E9F151412663EECA002FB2BC /* XCRemoteSwiftPackageReference "AlertToast" */,
+				E9772B592664E1EF002A30A3 /* XCRemoteSwiftPackageReference "SwiftStomp" */,
+				E97C681A2667A0C5003397D9 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = E96E29B3265686040084F12A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96E29C5265686750084F12A /* Pangolin-Regular.ttf in Resources */,
 				E96E29BD265686060084F12A /* Preview Assets.xcassets in Resources */,
 				E96E29BA265686060084F12A /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +252,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97C6816266761A8003397D9 /* EnterAnswerView.swift in Sources */,
+				E9F151382663E506002FB2BC /* QuestionResponse.swift in Sources */,
+				E9F1512B2663E278002FB2BC /* APIRequests.swift in Sources */,
+				E9E3A371266F5E380066D148 /* StoryRequest.swift in Sources */,
+				E9EC6915265A9CD200D327FF /* WaitingRoomView.swift in Sources */,
 				E96E29B8265686040084F12A /* ContentView.swift in Sources */,
+				E9F151322663E3AC002FB2BC /* ConnecToGameRequest.swift in Sources */,
+				E9F1513E2663E689002FB2BC /* StartGameRequest.swift in Sources */,
+				E977588F2681D2DE00732271 /* RootPresentationModeKey.swift in Sources */,
+				E9EC6917265AADDD00D327FF /* PlayerCard.swift in Sources */,
+				E9F1513C2663E62E002FB2BC /* Story.swift in Sources */,
+				E9E3A36A266F40C00066D148 /* StoryView.swift in Sources */,
+				E9E3A36D266F42990066D148 /* StoryLineCard.swift in Sources */,
 				E96E29B6265686040084F12A /* ChepuhaApp.swift in Sources */,
+				E9EC691B265AB17900D327FF /* PlayerRow.swift in Sources */,
+				E9F151342663E3DD002FB2BC /* Player.swift in Sources */,
+				E9F151362663E4AB002FB2BC /* BaseResponse.swift in Sources */,
+				E9F1512E2663E2AC002FB2BC /* answer.swift in Sources */,
+				E9F151402663E6CE002FB2BC /* StoryResponse.swift in Sources */,
+				E9E3A368266F3BED0066D148 /* AnswerRequest.swift in Sources */,
+				E9E3A36F266F42EE0066D148 /* StoryRow.swift in Sources */,
+				E9F1513A2663E5FC002FB2BC /* StartGameResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -267,8 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chepuha/Chepuha.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Chepuha/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Chepuha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -288,8 +424,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chepuha/Chepuha.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Chepuha/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Chepuha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -326,6 +464,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9772B592664E1EF002A30A3 /* XCRemoteSwiftPackageReference "SwiftStomp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Romixery/SwiftStomp.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		E97C681A2667A0C5003397D9 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+		E9F151412663EECA002FB2BC /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9772B5A2664E1EF002A30A3 /* SwiftStomp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9772B592664E1EF002A30A3 /* XCRemoteSwiftPackageReference "SwiftStomp" */;
+			productName = SwiftStomp;
+		};
+		E97C681B2667A0C5003397D9 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E97C681A2667A0C5003397D9 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		E9F151422663EECA002FB2BC /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9F151412663EECA002FB2BC /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E96E29AA265686040084F12A /* Project object */;
 }
