@@ -15,7 +15,7 @@ enum APIError: Error {
 
 
 struct APIRequests {
-    private static let url = "http://localhost:8080"
+    private static let url = "http://158.101.183.197:8080"
     
     static func createGame(player: Player, completion: @escaping(Result<StartGameResponse, APIError>) -> Void) {
         guard let requestURL = URL(string: (url + "/create")) else {

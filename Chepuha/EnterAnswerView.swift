@@ -69,7 +69,7 @@ struct EnterAnswerView: View, SwiftStompDelegate {
     @State var isWaiting = false
     var player: Player
     @State var oldQuestionNumber: Int = 0
-    let url = "ws://localhost:8080/connections"
+    let url = "ws://158.101.183.197:8080/connections"
     var stompClient: SwiftStomp
     
     init(gameCode: Binding<String>, player: Player) {

@@ -58,7 +58,7 @@ struct WaitingRoomView: View, SwiftStompDelegate{
     @Binding var isStarter: Bool
     @State var selection: String? = ""
     @State var notEnoughPlayersError = false
-    var stompClinet: SwiftStomp = SwiftStomp(host: URL(string: "ws://localhost:8080/connections")!)
+    var stompClinet: SwiftStomp = SwiftStomp(host: URL(string: "ws://158.101.183.197:8080/connections")!)
     @Binding var player: Player
     
     var body: some View {
