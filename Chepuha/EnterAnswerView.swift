@@ -29,7 +29,11 @@ struct EnterAnswerView: View, SwiftStompDelegate {
                     selection = "story"
                     return
                 }
-            
+                
+                if q.questionNumber == 1 {
+                    answer = "c"
+                }
+                
                 question = q.question
                 questionNumber = q.questionNumber
                 isWaiting = false
@@ -148,6 +152,13 @@ struct EnterAnswerView: View, SwiftStompDelegate {
     
     func sendAnswer() {
         oldQuestionNumber = questionNumber
+        
+        if questionNumber == 5 {
+            answer = "им сказали: \"" + answer + "\""
+        } else if questionNumber == 6 {
+            answer = "и закончилось все " + answer
+        }
+        
         APIRequests.sendAnswer(answer: Answer(questionNumber: questionNumber, text: answer, author: player.name), gameCode: gameCode, completion: {
             result in
             switch result {
