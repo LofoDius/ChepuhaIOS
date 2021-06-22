@@ -123,7 +123,7 @@ struct EnterAnswerView: View, SwiftStompDelegate {
                             sendAnswer()
                         }
                     }) {
-                        Text("Отправить")
+                        Text("Тык")
                             .font(Font.custom("Pangolin-Regular", size: 20))
                             .foregroundColor(.white)
                     }
